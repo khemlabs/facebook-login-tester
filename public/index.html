@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Khemlabs TEST - Facebook LOGIN</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body class="body">
+	<!--message-->
+	<div class="container main-container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1>Facebook Login Page</h1>
+				<p>Facebook login test app with Khemlabs testing credentials</p>
+			</div>
+		</div>
+	</div>
+	<!--scope-->
+	<div class="container main-container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="form-group">
+					<label for="khem-uri">Facebook scope (csv)</label>
+					<input value="email" type="text" class="form-control facebook-scope" placeholder="Facebook scope (csv)">
+				</div>
+				<div class="form-group">
+					<button type="button" class="btn btn-primary login-btn">Test facebook login</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--khemlabs api -->
+	<div class="container main-container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="form-group">
+					<label for="khem-uri">Khemlabs API Login</label>
+					<input value="http://localhost:3001/" type="text" class="form-control khem-uri" placeholder="Enter a valid domain">
+				</div>
+				<button type="button" class="btn btn-primary khem-uri-btn">Test Khemlabs login</button>
+			</div>
+		</div>
+	</div>
+	<!--console-->
+	<div class="container main-container">
+		<div class="row">
+			<div class="row col-md-12">
+				<div class="col-md-6">
+					<h2>Console </h2>
+					<div class="console">
+						<pre class="console-container console-json"></pre>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<h2>History
+						<button type="button" class="btn btn-primary clear-btn">Clear</button>
+					</h2>
+					<div class="console">
+						<pre class="console-container console-history"></pre>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/console.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+	<script src="js/facebook.js"></script>
+	<script src="js/index.js"></script>
+</body>
+
+</html>

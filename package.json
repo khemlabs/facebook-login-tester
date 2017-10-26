@@ -1,0 +1,23 @@
+{
+	"name": "facebook-login",
+	"version": "0.0.1",
+	"description": "Facebook login test with khemlabs testing credentials",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/khemlabs/facebook-login-tester.git"
+	},
+	"author": "Pablo Gambetta <gambeita@gmail.com> (https://github.com/elgambet)",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/khemlabs/facebook-login-tester/issues"
+	},
+	"homepage": "https://github.com/khemlabs/facebook-login-tester#readme",
+	"dependencies": {
+		"express": "^4.16.2"
+	}
+}
